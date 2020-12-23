@@ -7,17 +7,17 @@ SSTI:  #Make this the Id
   prefix: "ssti"
   levels:
     easy:
-        directory: "SSTI_Easy"
+        directory: "ssti_Easy"
         level: "Easy"
         description: "Gaspar has setup a gift ordering service. Can you get what you want?"
         url: "http://example.org"
     node:
-        directory: "SSTI_Node"
+        directory: "ssti_Node"
         level: "Moderate"
         description: "After seeing the flaws in Gaspars gift service, Melechor has tried to use a different framework to improve it"
         url: "http://example.org"
     moderate:
-        directory: "SSTI_Moderate"
+        directory: "ssti_Hard"
         level: "Hard"
         description: "Balthazar, fed up with the issues in the previous versions,  has had one last go at securing the gift ordering."
         url: "http://example.org"
