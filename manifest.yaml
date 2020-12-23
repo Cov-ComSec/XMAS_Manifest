@@ -1,7 +1,8 @@
 #Manifest for various git files
 
-SSTI:  #Make this the Id
-  name: "Day 4:"
+
+day4:  #Make this the Id
+  name: "Day 4"
   description: "The Kings have setup a gift ordering service."
   gitrepo: git@github.com:Cov-ComSec/Xmas-SSTI.git
   prefix: "ssti"
@@ -9,18 +10,25 @@ SSTI:  #Make this the Id
     easy:
         directory: "ssti_Easy"
         level: "Easy"
-        description: "Gaspar has setup a gift ordering service. Can you get what you want?"
-        url: "http://example.org"
-    node:
-        directory: "ssti_Node"
-        level: "Moderate"
-        description: "After seeing the flaws in Gaspars gift service, Melechor has tried to use a different framework to improve it"
+        description: >
+          <p>Gaspar has setup a gift ordering service. Can you get what you want?</p>
+          <p>Challenge will be available on port 5000</p>
         url: "http://example.org"
     moderate:
+        directory: "ssti_Node"
+        level: "Moderate"
+        description: >
+          <h3>Testing updates</h3>
+          After seeing the flaws in Gaspars gift service,
+          Melechor has tried to use a different framework to improve it
+          <p>Port 3000 this time</p>
+        url: "http://example.org"
+    hard:
         directory: "ssti_Hard"
         level: "Hard"
         description: "Balthazar, fed up with the issues in the previous versions,  has had one last go at securing the gift ordering."
         url: "http://example.org"
+
   
 # Sandbox:
 #   name: "Day 5: Sandbox Stuff"
