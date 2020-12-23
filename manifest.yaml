@@ -1,48 +1,48 @@
 #Manifest for various git files
 
 SSTI:  #Make this the Id
-  name: "Day 4: SSTI Challenges"
-  description: "This is a big description of the challenge set"
+  name: "Day 4:"
+  description: "The Kings have setup a gift ordering service."
   gitrepo: git@github.com:Cov-ComSec/Xmas-SSTI.git
   prefix: "ssti"
   levels:
     easy:
-        directory: "Easy"
+        directory: "SSTI_Easy"
         level: "Easy"
-        description: "Gaspar has setup something"
-        url: "http://example.org"
-    moderate:
-        directory: "Moderate"
-        level: "Moderate"
-        description: "Balthazar has improved it"
+        description: "Gaspar has setup a gift ordering service. Can you get what you want?"
         url: "http://example.org"
     node:
-        directory: "Node"
+        directory: "SSTI_Node"
         level: "Moderate"
-        description: "Balthazar has improved it"
-        url: "http://example.org"
-  
-Sandbox:
-  name: "Day 5: Sandbox Stuff"
-  gitrepo: git@github.com:Cov-ComSec/XMAS_Sandbox.git
-  description: "Sand Box Challenges to Thrill and Delight"
-  prefix: "sandbox"
-  levels:
-    easy:
-        directory: "Sandbox_Easy"
-        level: "Easy"
-        description: "Gaspar has setup something"
+        description: "After seeing the flaws in Gaspars gift service, Melechor has tried to use a different framework to improve it"
         url: "http://example.org"
     moderate:
-        directory: "Moderate"
-        level: "Moderate"
-        description: "Balthazar has improved it"
-        url: "http://example.org"
-    hard:
-        directory: "Hard"
+        directory: "SSTI_Moderate"
         level: "Hard"
-        description: "Balthazar has improved it"
+        description: "Balthazar, fed up with the issues in the previous versions,  has had one last go at securing the gift ordering."
         url: "http://example.org"
+  
+# Sandbox:
+#   name: "Day 5: Sandbox Stuff"
+#   gitrepo: git@github.com:Cov-ComSec/XMAS_Sandbox.git
+#   description: "Sand Box Challenges to Thrill and Delight"
+#   prefix: "sandbox"
+#   levels:
+#     easy:
+#         directory: "Sandbox_Easy"
+#         level: "Easy"
+#         description: "Gaspar has setup something"
+#         url: "http://example.org"
+#     moderate:
+#         directory: "Moderate"
+#         level: "Moderate"
+#         description: "Balthazar has improved it"
+#         url: "http://example.org"
+#     hard:
+#         directory: "Hard"
+#         level: "Hard"
+#         description: "Balthazar has improved it"
+#         url: "http://example.org"
   
 
   
