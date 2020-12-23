@@ -1,0 +1,52 @@
+#Manifest for various git files
+
+SSTI:  #Make this the Id
+  name: "Day 4: SSTI Challenges"
+  description: "This is a big description of the challenge set"
+  gitrepo: git@github.com:Cov-ComSec/Xmas-SSTI.git
+  prefix: "ssti"
+  levels:
+    easy:
+        directory: "Easy"
+        level: "Easy"
+        description: "Gaspar has setup something"
+        url: "http://example.org"
+    moderate:
+        directory: "Moderate"
+        level: "Moderate"
+        description: "Balthazar has improved it"
+        url: "http://example.org"
+    node:
+        directory: "Node"
+        level: "Moderate"
+        description: "Balthazar has improved it"
+        url: "http://example.org"
+  
+Sandbox:
+  name: "Day 5: Sandbox Stuff"
+  gitrepo: git@github.com:Cov-ComSec/XMAS_Sandbox.git
+  description: "Sand Box Challenges to Thrill and Delight"
+  prefix: "sandbox"
+  levels:
+    easy:
+        directory: "Sandbox_Easy"
+        level: "Easy"
+        description: "Gaspar has setup something"
+        url: "http://example.org"
+    moderate:
+        directory: "Moderate"
+        level: "Moderate"
+        description: "Balthazar has improved it"
+        url: "http://example.org"
+    hard:
+        directory: "Hard"
+        level: "Hard"
+        description: "Balthazar has improved it"
+        url: "http://example.org"
+  
+
+  
+#   levels:
+#     - easy: "Easy"
+#     - moderate: "Moderate"
+#     - hard: "Hard"
