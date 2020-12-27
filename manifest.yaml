@@ -1,32 +1,43 @@
 #Manifest for various git files
 
 
-day4:  #Make this the Id
-  name: "Day 4"
-  description: "The Kings have setup a gift ordering service."
+day2:  #Make this the Id
+  name: "Day 2"
+  description: >
+    <p> Due to the Corona, the Kings can no longer carpet-bomb the
+    kids with sweets and gifts.  They have decided to setup a gift
+    ordering system, to keep the Chicos happy</p><p> Each King took a
+    slightly different approach to the problem..  Can you get the Gift
+    you want ?</p>
   gitrepo: git@github.com:Cov-ComSec/Xmas-SSTI.git
   prefix: "ssti"
   levels:
     easy:
         directory: "ssti_Easy"
         level: "Easy"
+        port: 5000 
         description: >
-          <p>Gaspar has setup a gift ordering service. Can you get what you want?</p>
-          <p>Challenge will be available on port 5000</p>
+          <p>Gaspar decided to contract the 'Experts' at the University of Canley..</p>
+          <p>You can access the Challenge on port 5000 IE <thisMachine>:5000</p>
         url: "http://example.org"
     moderate:
         directory: "ssti_Node"
+        port: 5000 
         level: "Moderate"
         description: >
-          <h3>Yo Comsec Crew</h3>
-          After seeing the flaws in Gaspars gift service,
-          Melechor has tried to use a different framework to improve it
-          <p>Port 3000 this time</p>
+          <p>After seeing the flaws in Gaspars gift service, Melechor
+          went the time honoured route of getting his "Nephew who
+          knows about computers" to build the site</p> <p>As Before
+          The challenge is on Port 5000 this time</p>
         url: "http://example.org"
     hard:
         directory: "ssti_Hard"
         level: "Hard"
-        description: "Balthazar, fed up with the issues in the previous versions,  has had one last go at securing the gift ordering."
+        port: 5000 
+        description: >
+          <p>Balthazar, fed up with the issues in the previous
+          versions, has had one last go at securing the gift
+          ordering.</p>
         url: "http://example.org"
 
   
