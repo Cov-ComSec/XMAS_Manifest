@@ -19,7 +19,7 @@ day2:  #Make this the Id
         description: >
           <p>Gaspar decided to contract the 'Experts' at the University of Canley..</p>
           <p>You can access the Challenge on port 5000 IE <thisMachine>:5000</p>
-        url: "http://example.org"
+        url: "https://cueh-comsec.ctfd.io/admin/challenges/86"
     moderate:
         directory: "ssti_Node"
         port: 5000 
@@ -29,7 +29,7 @@ day2:  #Make this the Id
           went the time honoured route of getting his "Nephew who
           knows about computers" to build the site</p> <p>As Before
           The challenge is on Port 5000 this time</p>
-        url: "http://example.org"
+        url: "https://cueh-comsec.ctfd.io/admin/challenges/87"
     hard:
         directory: "ssti_Hard"
         level: "Hard"
@@ -38,7 +38,7 @@ day2:  #Make this the Id
           <p>Balthazar, fed up with the issues in the previous
           versions, has had one last go at securing the gift
           ordering.</p>
-        url: "http://example.org"
+        url: "https://cueh-comsec.ctfd.io/admin/challenges/88"
 
   
 # Sandbox:
