@@ -19,7 +19,7 @@ day2:  #Make this the Id
         description: >
           <p>Gaspar decided to contract the 'Experts' at the University of Canley.</p>
           <p>You can access the Challenge on port 5000 IE <thisMachine>:5000</p>
-        url: "https://cueh-comsec.ctfd.io/admin/challenges/86"
+        url: "https://cueh-comsec.ctfd.io/challenges"
     moderate:
         directory: "ssti_Node"
         port: 5000 
@@ -29,7 +29,7 @@ day2:  #Make this the Id
           went the time honoured route of getting his "Nephew who
           knows about computers" to build the site</p> <p>As Before
           The challenge is on Port 5000 this time</p>
-        url: "https://cueh-comsec.ctfd.io/admin/challenges/87"
+        url: "https://cueh-comsec.ctfd.io/challenges"
     hard:
         directory: "ssti_Hard"
         level: "Hard"
@@ -38,16 +38,16 @@ day2:  #Make this the Id
           <p>Balthazar, fed up with the issues in the previous
           versions, has had one last go at securing the gift
           ordering.</p>
-        url: "https://cueh-comsec.ctfd.io/admin/challenges/88"
+        url: "https://cueh-comsec.ctfd.io/challenges"
 
   
 Sandbox:
-  name: "Day 5: Sandbox Stuff"
+  name: "Day N: In The Desert"
   gitrepo: git@github.com:Cov-ComSec/XMAS_Sandbox.git
   description: >
     <p>Our Kings have been trying to use technology to solve a
-    problem. Using the latest Python Astronomy, <code>import * from sky</code>
-    :) package, they can calculate estimate where the star will end
+    problem. Using the latest Python Astronomy, (<code>import * from sky</code>)
+    library, they can calculate estimate where the star will end
     up, rather than deal with the problems of following a moving
     object.</p>
     
@@ -64,7 +64,7 @@ Sandbox:
           <p>Undeterred by the problems they caused last time.  Gaspar
           call on his friends at the University of Canley (they
           are Russel group, so must be good).</p>
-        url: "http://example.org"
+        url: "https://cueh-comsec.ctfd.io/challenges"
     moderate:
         directory: "Sandbox_Moderate"
         level: "Moderate"
@@ -72,8 +72,7 @@ Sandbox:
         description: >
           <p>Melchior has once again makes use of the clever Nephew for his attempt.
           Perhaps using filters to block the "bad" commands, is the right path</p>
-          
-        url: "http://example.org"
+        url: "https://cueh-comsec.ctfd.io/challenges"
     hard:
         directory: "Sandbox_Hard"
         level: "Hard"
@@ -83,5 +82,5 @@ Sandbox:
           see what the Options are and gets inspiration from the
           desert surrounding them, perhaps a sandbox is a good
           idea..</p>
-        url: "http://example.org"
+        url: "https://cueh-comsec.ctfd.io/challenges"
   
