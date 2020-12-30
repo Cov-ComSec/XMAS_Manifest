@@ -59,7 +59,7 @@ Sandbox:
     easy:
         directory: "Sandbox_Easy"
         level: "Easy"
-        port: 5000
+        port: 80
         description: >
           <p>Undeterred by the problems they caused last time.  Gaspar
           call on his friends at the University of Canley (they
@@ -68,18 +68,20 @@ Sandbox:
     moderate:
         directory: "Sandbox_Moderate"
         level: "Moderate"
-        port: 5000
+        port: 80
         description: >
           <p>Melchior has once again makes use of the clever Nephew for his attempt.
-          This time it appears he may have heard of Filters to block the "bad" commands</p>
+          Perhaps using filters to block the "bad" commands, is the right path</p>
           
         url: "http://example.org"
     hard:
         directory: "Sandbox_Hard"
         level: "Hard"
-        port: 5000
+        port: 80
         description: >
-          <p>Balthazar rolls his own again.</p>
-          <p>He looks around and get inspiration from the desert surrounding them</p>
+          <p>Balthazar rolls his own again.</p> <p>He looks around to
+          see what the Options are and gets inspiration from the
+          desert surrounding them, perhaps a sandbox is a good
+          idea..</p>
         url: "http://example.org"
   
