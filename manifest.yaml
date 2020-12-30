@@ -42,7 +42,7 @@ day2:  #Make this the Id
 
   
 Sandbox:
-  name: "Day N: In The Desert"
+  name: "Day 5: In The Desert"
   gitrepo: git@github.com:Cov-ComSec/XMAS_Sandbox.git
   description: >
     <p>Our Kings have been trying to use technology to solve a
