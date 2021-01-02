@@ -84,3 +84,30 @@ Sandbox:
           idea..</p>
         url: "https://cueh-comsec.ctfd.io/challenges"
   
+
+education:
+  name: "Day N: Real World"
+  gitrepo: git@github.com:Cov-ComSec/XMAS_RealWorld.git
+  description: >
+    <p>Some "Real World" Exploits for you to try.</p> <p>These are
+    boot-2-root style machines.  Points for both user and root
+    flags.</p>
+
+    <div class='alert alert-info'><strong>Important Note</strong>
+    Obviously, Recon is a thing.  <strong>IGNORE PORT 4222</strong> Its part
+    of the docker engine
+    </div>
+        
+  prefix: "realworld"
+  levels:
+    education:
+      directory: "realworld_Moodle"
+      level: "Boot 2 Root"
+      port: "Work it out"
+      description: >
+        <p>Given the issues in their last computing projects.
+        The kings decide they need some training on cyber-security</p>
+      url: "https://cueh-comsec.ctfd.io/challenges"
+
+        
+  
