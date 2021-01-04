@@ -86,7 +86,7 @@ Sandbox:
   
 
 education:
-  name: "Day N: Real World"
+  name: "Day 8-10: Real World"
   gitrepo: git@github.com:Cov-ComSec/XMAS_RealWorld.git
   description: >
     <p>Some "Real World" Exploits for you to try.</p> <p>These are
@@ -103,11 +103,20 @@ education:
     education:
       directory: "realworld_Moodle"
       level: "Boot 2 Root"
-      port: "Work it out"
+      port: "Work it out :p"
       description: >
+        <h5>Day 8</h5>
         <p>Given the issues in their last computing projects.
         The kings decide they need some training on cyber-security</p>
-      url: "https://cueh-comsec.ctfd.io/challenges"
-
         
-  
+      url: "https://cueh-comsec.ctfd.io/challenges"
+        
+    theforum:
+      directory: "realworld_Forum"
+      level: "Boot 2 Root"
+      port: "NMAP"
+      description: >
+        <h5>Day 10</h5>
+        <p>The Kings Find a Handy forum...</p>
+        
+      url: "https://cueh-comsec.ctfd.io/challenges"
